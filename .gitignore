@@ -54,7 +54,8 @@ cover/
 # Translations
 *.mo
 *.pot
-
+.gitconfig
+.bash_history
 # Django stuff:
 *.log
 local_settings.py
