@@ -1,0 +1,15 @@
+action_id: trunk-single-player-auto-on-upgrade
+date: 2024-11-21 19:26:44
+run: trunk on-upgrade --single-player-only -n --no-progress --allow-daemon-start=false --print-summary --scope=check,plugins,runtimes,tools
+run_from: ""
+trigger: schedule 24h+5m
+result:
+  exit_code: 1
+  out: ""
+  err: Exception occurred while executing 'trunk-single-player-auto-on-upgrade'. See .trunk\out\kib5m.yaml for details.
+  error_path: C:\Users\holna\Pylearning\goit-cs-hw-02\.trunk\out\kib5m.yaml
+timestamp: 1732217204
+full_timestamp:
+  nanos: 259292000
+  seconds: 1732217204
+trunk_version: 1.22.8

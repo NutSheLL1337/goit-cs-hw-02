@@ -1,0 +1,15 @@
+action_id: trunk-single-player-auto-upgrade
+date: 2024-11-16 09:19:53
+run: trunk upgrade cli --single-player-only -n --no-progress --on-upgrade=false --allow-daemon-start=false
+run_from: ""
+trigger: schedule 24h+1h
+result:
+  exit_code: 1
+  out: ""
+  err: Exception occurred while executing 'trunk-single-player-auto-upgrade'. See .trunk\out\HRQ0Q.yaml for details.
+  error_path: C:\Users\holna\Pylearning\goit-cs-hw-02\.trunk\out\HRQ0Q.yaml
+timestamp: 1731748793
+full_timestamp:
+  nanos: 520859000
+  seconds: 1731748793
+trunk_version: 1.22.8

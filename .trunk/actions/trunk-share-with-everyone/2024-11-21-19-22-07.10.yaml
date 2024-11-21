@@ -1,0 +1,15 @@
+action_id: trunk-share-with-everyone
+date: 2024-11-21 19:22:07
+run: trunk config share --notify --allow-daemon-start=false
+run_from: ""
+trigger: schedule 24h
+result:
+  exit_code: 1
+  out: ""
+  err: Exception occurred while executing 'trunk-share-with-everyone'. See .trunk\out\LrIuw.yaml for details.
+  error_path: C:\Users\holna\Pylearning\goit-cs-hw-02\.trunk\out\LrIuw.yaml
+timestamp: 1732216927
+full_timestamp:
+  nanos: 10748000
+  seconds: 1732216927
+trunk_version: 1.22.8

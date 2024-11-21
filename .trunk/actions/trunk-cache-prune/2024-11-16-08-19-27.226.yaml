@@ -1,0 +1,15 @@
+action_id: trunk-cache-prune
+date: 2024-11-16 08:19:27
+run: trunk cache prune --allow-daemon-start=false
+run_from: ""
+trigger: schedule 24h
+result:
+  exit_code: 1
+  out: ""
+  err: Exception occurred while executing 'trunk-cache-prune'. See .trunk\out\EHOqP.yaml for details.
+  error_path: C:\Users\holna\Pylearning\goit-cs-hw-02\.trunk\out\EHOqP.yaml
+timestamp: 1731745167
+full_timestamp:
+  nanos: 226863000
+  seconds: 1731745167
+trunk_version: 1.22.8

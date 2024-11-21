@@ -1,0 +1,14 @@
+trunk_cli_version: 1.22.8
+title: Exception occurred while executing trunk-single-player-auto-on-upgrade
+report:
+  - message: Unable to find binary in PATH
+    binary: bash
+    PATH:
+      - C:\/bin
+      - C:\/usr/bin
+  - command: |
+      bash -c 'C:/Users/holna/AppData/Local/trunk/cli/trunk-1.22.8-windows/trunk.exe on-upgrade --single-player-only -n --no-progress --allow-daemon-start=false --print-summary --scope=check,plugins,runtimes,tools' trunk-single-player-auto-on-upgrade
+    stdin_path: (none)
+    run_from: C:\Users\holna\Pylearning\goit-cs-hw-02/
+    timeout: 0
+    rerun: (cd C:\Users\holna\Pylearning\goit-cs-hw-02/; env -i 'Path=C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\holna\AppData\Local\Programs\Python\Python312;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\Users\holna\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\holna\AppData\Local\Programs\Python\Python312\;C:\Users\holna\AppData\Local\Microsoft\WindowsApps;C:\Users\holna\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\holna\AppData\Local\GitHubDesktop\bin' 'PATH=C:\/bin;C:\/usr/bin' 'HOMEPATH=\Users\holna' 'SystemRoot=C:\Windows' 'windir=C:\Windows' 'APPDATA=C:\Users\holna\AppData\Roaming' 'LOCALAPPDATA=C:\Users\holna\AppData\Local' 'USERPROFILE=C:\Users\holna' 'TMP=C:\Users\holna\AppData\Local\Temp' 'TEMP=C:\Users\holna\AppData\Local\Temp' bash -c 'C:/Users/holna/AppData/Local/trunk/cli/trunk-1.22.8-windows/trunk.exe on-upgrade --single-player-only -n --no-progress --allow-daemon-start=false --print-summary --scope=check,plugins,runtimes,tools' trunk-single-player-auto-on-upgrade)

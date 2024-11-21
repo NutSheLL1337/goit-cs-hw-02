@@ -1,0 +1,15 @@
+action_id: trunk-cache-prune
+date: 2024-11-16 08:00:30
+run: trunk cache prune --allow-daemon-start=false
+run_from: ""
+trigger: schedule 24h
+result:
+  exit_code: 1
+  out: ""
+  err: Exception occurred while executing 'trunk-cache-prune'. See .trunk\out\9iu9U.yaml for details.
+  error_path: C:\Users\holna\Pylearning\goit-cs-hw-02\.trunk\out\9iu9U.yaml
+timestamp: 1731744030
+full_timestamp:
+  nanos: 631933000
+  seconds: 1731744030
+trunk_version: 1.22.8

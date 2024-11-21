@@ -1,0 +1,15 @@
+action_id: trunk-single-player-auto-on-upgrade
+date: 2024-11-17 17:54:48
+run: trunk on-upgrade --single-player-only -n --no-progress --allow-daemon-start=false --print-summary --scope=check,plugins,runtimes,tools
+run_from: ""
+trigger: schedule 24h+5m
+result:
+  exit_code: 1
+  out: ""
+  err: Exception occurred while executing 'trunk-single-player-auto-on-upgrade'. See .trunk\out\3MrgM.yaml for details.
+  error_path: C:\Users\holna\Pylearning\goit-cs-hw-02\.trunk\out\3MrgM.yaml
+timestamp: 1731866088
+full_timestamp:
+  nanos: 685843000
+  seconds: 1731866088
+trunk_version: 1.22.8
